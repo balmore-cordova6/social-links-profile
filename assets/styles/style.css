@@ -38,7 +38,7 @@ main{
     padding: 10px;
     border-radius: 10px;
     width: 290px;
-    margin-top: 90px;
+    margin-top: 60px;
     margin-bottom: 60px;
 }
 
@@ -97,4 +97,8 @@ figure img{
 
 .last-social-media{
     margin-bottom: 20px;
+}
+
+.social-media a:hover{
+    text-decoration: underline;
 }
