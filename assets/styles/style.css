@@ -19,6 +19,83 @@ html{
 body{
     font-size: 1.4rem;
     font-family: "Inter", serif;
+    background-color: var(--gray-900);
 }
 
+/* Contenedor principal */
+main{
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
 
+/* Contenedor de la card */
+.container-card{
+    background-color: var(--gray-800);
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* Foto */
+figure{
+    display: flex;
+    justify-content: center;
+}
+
+figure img{
+    border-radius: 50%;
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    
+}
+
+/* Sección de información personal */
+.personal-information{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.personal-information h1{
+    color: var(--white);
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+.personal-information h3{
+    color: var(--light-green);
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+
+.personal-information p{
+    color: var(--white);
+    margin-top: 10px;
+}
+
+/* Sección de enlaces */
+.social-media{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.social-media a{
+    background-color: var(--gray-700);
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.last-social-media{
+    margin-bottom: 20px;
+}
