@@ -1,0 +1,20 @@
+@media (min-width: 768px){
+    body{
+        font-size: 1.5rem;
+    }
+
+    /* Contenedor de la card */
+    .container-card{
+        padding: 25px;
+        width: 350px;
+    }
+
+    /* Sección de información personal */
+    .personal-information h1{
+        font-size: 3.2rem;
+    }
+    
+    .personal-information h3{
+        font-size: 1.6rem;
+    }
+}
